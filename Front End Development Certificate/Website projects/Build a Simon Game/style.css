@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald');
+
+body {
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.bot {
+  width: 100px;
+  margin: auto;
+}
+
+.mid {
+  width: 200px;
+  margin: auto;
+}
+
+.row:before {
+  display: table;
+  content: " ";
+}
+
+.row.after {
+  clear: both;
+}
+
+.game-board {
+  margin: auto;
+  margin-top: 50px;
+  border: 10px solid #333;
+  box-shadow: 0px 0px 15px #222;
+  border-radius: 100%;
+  width: 440px;
+  height: 440px;
+  position: relative;
+}
+
+.game-board .push {
+  width:205px;
+  height:205px;
+  border: 10px solid #333;
+}
+
+.game-board .p0 {
+  float: left;
+  margin-top: -5px;
+  margin-left: 10px;
+  background-color: #139c13;
+  border-top-left-radius : 100%;
+}
+
+.game-board .p1 {
+  float: right;
+  margin-top: -5px;
+  margin-right: 10px;
+  background-color: #ab2626;
+  border-top-right-radius : 100%;
+}
+
+.game-board .p2 {
+  float: left;
+  margin-left: 10px;
+  background-color: #bdbd0f;
+  border-bottom-left-radius : 100%;
+}
+
+.game-board .p3 {
+  float: right;
+  margin-right: 10px;
+  background-color: #3f3fce;
+  border-bottom-right-radius : 100%;
+}
+
+.game-board .p0-light {
+  background-color: #13ff7c;
+}
+
+.game-board .p1-light {
+  background-color: #ff4c4c;
+}
+
+.game-board .p2-light {
+  background-color: #fed93f;
+}
+
+.game-board .p3-light {
+  background-color: #1c8cff;
+}
+
+.game-board .p0-active {
+  cursor: pointer;
+}
+
+.game-board .p1-active {
+  cursor: pointer;
+}
+
+.game-board .p2-active {
+  cursor: pointer;
+}
+
+.game-board .p3-active {
+  cursor: pointer;
+}
+
+.game-board .p0-active:active {
+  background-color: #13ff7c;
+}
+
+.game-board .p1-active:active {
+  background-color: #ff4c4c;
+}
+
+.game-board .p2-active:active {
+  background-color: #fed93f;
+}
+
+.game-board .p3-active:active {
+  background-color: #1c8cff;
+}
+
+.controller {
+  background-color: #d6d6d6;
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  top: 155px;
+  left: 50%;
+  margin-left: -120px;
+  border: 12px solid #333;
+  border-radius:100%;
+} 
+
+.controller .brand {
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color : #222;
+  font-size: 44px;
+  margin-top : 35px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
+.controller .brand .small{
+  font-size : 16px;
+  position : relative;
+  top : -18px;
+}
+
+.controller .display {
+  width: 60px;
+}
+
+.controller .label {
+  color: #222;
+  font-family: 'Oswald', Arial, sans;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.controller .display .count {
+  font-family: 'VT323', monospace;
+  font-size: 32px;
+  color: #430710;
+  background-color: #32050C;
+  width: 50px;
+  margin: auto;
+  padding: 0px;
+  border: 4px solid #222;
+  border-radius: 10px;
+  position: relative;
+}
+
+.controller .btn-field {
+  width: 50px;
+  position: relative;
+}
+
+.controller .btn-field .round-btn {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: 100%;
+  border: 4px solid #444;
+  box-shadow: 0px 2px 3px #222;
+  margin: auto;
+  top: -5px;
+}
+
+.controller .btn-field .round-btn:active {
+    box-shadow : 0 1px 1px #292929;
+    top : -4px;
+}
+
+.controller .btn-field .start {
+    background-color: #3fab8d;
+}
+
+.controller .btn-field .strict {
+    background-color: #d5e029;
+}
+
+.controller .btn-field .led {
+  width: 6px;
+  height: 6px;
+  background-color: #32050C;
+  border-radius : 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 2px solid #222;
+  top: -20px;
+}
+
+.controller .onoff {
+  background-color: #222;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  border-radius: 2px;
+}
+
+.controller .onoff .switch {
+  background-color: #4e9ee2;
+  height: 16px;
+  width: 16px;
+  border-radius: 4px;
+  position: relative;
+  border: 2px solid #4e4e4e;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer hr {
+  margin: 20px;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #ffffff, #969696, #ffffff);
+  background-image: -moz-linear-gradient(left, #ffffff, #969696, #ffffff);
+  background-image: -ms-linear-gradient(left, #ffffff, #969696, #ffffff);
+  background-image: -o-linear-gradient(left, #ffffff, #969696, #ffffff);
+}
+
+@media screen and (max-height: 580px) {
+  footer { position: relative; }
+}

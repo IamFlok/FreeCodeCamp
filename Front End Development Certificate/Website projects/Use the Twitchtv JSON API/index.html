@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitch.tv JSON API</title>
+  <meta charset="UTF-8">
+  <meta name="Use the Twitchtv JSON API" content="FCC project">
+  <meta name="keywords" content="HTML,CSS,JS">
+  <meta name="author" content="Ferenc Szel">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="twitch.js"></script>
+</head>
+
+<body>
+  <h1>Twitch.tv streamer watchlist</h1>
+  <div class="container">
+    <div class="add-box col-md-4">
+      <label for="add-streamer">Enter a streamer to add:</label>
+      <div class="row">
+        <input type="text" class="form-control" id="add-streamer">
+      </div>
+      <div class="row">
+        <input type="button" class="btn add-button col-md-6" value="Add streamer" id="add">
+        <input type="button" class="btn add-button col-md-6" value="Refresh" id="refresh">
+      </div>
+    </div>
+    <div class="stream-box" id="streamerlist"></div>
+  </div>
+  <div class="push"></div>
+</body>
+
+<footer>
+  <div class="footer-text">
+    <p>Coded by <a href="https://www.freecodecamp.com/iamflok" target="_blank">Ferenc Szel</a>
+  </div>
+</footer>
+
+</html>

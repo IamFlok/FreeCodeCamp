@@ -1,0 +1,44 @@
+body h1 {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.wiki-box .btn {
+  margin-top: 10px;
+}
+
+#result .wikiTitle {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #c7c7c7;
+  background-color: #f1f1f1;
+}
+
+#result .wikiExtract {
+  padding: 10px 10px 10px 10px;
+  background-color: #f9f9f9;
+}
+
+#result .wikiLink {
+  margin-top: 0px;
+  padding: 0px 0px 10px 20px;
+  background-color: #f9f9f9
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media screen and (max-height: 470px) {
+  footer { position: relative; }
+}

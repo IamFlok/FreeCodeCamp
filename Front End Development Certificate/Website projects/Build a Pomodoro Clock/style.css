@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.clock {
+  background-color: #424242;
+  max-width: 500px;
+  margin: auto;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 1px 8px #222;
+  padding: 10px;
+}
+
+.control-panel {
+  font-family: Open Sans, Arial;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+
+.control-panel .period-title {
+  margin-top: 10px;
+}
+
+.control-panel .length {
+  background-color: #d2d2d2;
+  padding: 7px 0px;
+  color: black;
+  border: 1px solid #424242;
+}
+
+.control-panel .btn {
+  font-size: 20px;
+  background-color: #2b2b2b;
+  color: white;
+  border-radius: 0px;
+  border: 1px solid #424242;
+}
+
+.control-panel .btn:hover {
+  opacity: 0.4;
+}
+
+.control-panel .switcher-btn {
+  width: 100%;
+  background-color: green;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.control-panel .switcher-btn:hover {
+  opacity: 0.8;
+}
+
+.clock .timer {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+}
+
+.clock .timer .period {
+  padding-top: 20px;
+}
+
+.clock .timer .counter {
+  padding: 5px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer hr {
+  margin: 20px;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #ffffff, #969696, #ffffff);
+  background-image: -moz-linear-gradient(left, #ffffff, #969696, #ffffff);
+  background-image: -ms-linear-gradient(left, #ffffff, #969696, #ffffff);
+  background-image: -o-linear-gradient(left, #ffffff, #969696, #ffffff);
+}
+
+@media screen and (max-height: 450px) {
+  footer { position: relative; }
+}

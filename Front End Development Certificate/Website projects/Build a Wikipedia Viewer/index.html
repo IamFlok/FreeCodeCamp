@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wikipedia Viewer</title>
+  <meta charset="UTF-8">
+  <meta name="Build a Wikipedia Viewer" content="FCC project">
+  <meta name="keywords" content="HTML,CSS,JS">
+  <meta name="author" content="Ferenc Szel">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="wiki.js"></script>
+</head>
+
+<body>
+  <h1>Wikipedia Viewer</h1>
+  <div class="container">
+    <div class="wiki-box">
+      <div class="wiki-search form-group">
+        <label for="title">Search for an article:</label>
+        <input type="text" class="form-control" id="title">
+        <input type="button" class="btn btn-primary" value="Search" id="search">
+        <a href="#" class="btn btn-primary" id="random" target="_blank">Random article</a>
+      </div>
+      <div class="wiki-findings" id="result"></div>
+    </div>
+  </div>
+</body>
+
+<footer>
+  <div class="footer-text">
+    <p>Coded by <a href="https://www.freecodecamp.com/iamflok" target="_blank">Ferenc Szel</a>
+  </div>
+</footer>
+
+</html>

@@ -1,0 +1,101 @@
+body {
+  margin-top: 40px;
+  background-color: #969696;
+}
+
+.top {
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.calculator {
+  background-color: #dedede;
+  padding: 10px;
+  width: 250px;
+  height: 350px;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.calculator .field {
+  background-color: white;
+  padding: 3px 10px;
+  margin: 5px;
+  border-radius: 3px;
+  text-align: right;
+}
+
+#result {
+  color: #3f3f3f;
+  font-size: 18px;
+  height: 21px;
+}
+
+#memory {
+  color: #5f5f5f;
+  font-size: 12px;
+  padding-top: 5px;
+  height: 20px;
+}
+
+.calculator .keyboards {
+  text-align: center;
+  padding: 10px;
+}
+
+.keyboards .btn {
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin: 2px;
+  width: 50px;
+  border-width: 1px;
+  border-bottom-color: #f9f9f9;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+.keyboards .red {
+  background-color: #ff5252;
+}
+
+.keyboards .blue {
+  background-color: #b1b1e6;
+}
+
+.keyboards .enter {
+  background-color: #6de06d;
+  height: 81px;
+  float: right;
+  margin-right: 3px;
+  margin-left: 1px;
+  width: 50px;
+}
+
+.keyboards .zero {
+  width: 109px;
+  float: left;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer hr {
+  margin: 20px;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #969696, #ffffff, #969696);
+  background-image: -moz-linear-gradient(left, #969696, #ffffff, #969696);
+  background-image: -ms-linear-gradient(left, #969696, #ffffff, #969696);
+  background-image: -o-linear-gradient(left, #969696, #ffffff, #969696);
+}
+
+@media screen and (max-height: 465px) {
+  footer { position: relative; }
+}

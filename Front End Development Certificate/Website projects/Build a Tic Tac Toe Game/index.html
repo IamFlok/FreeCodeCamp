@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tic Tac Toe</title>
+  <meta charset="UTF-8">
+  <meta name="Build a Tic Tac Toe Game" content="FCC project">
+  <meta name="keywords" content="HTML,CSS,JS">
+  <meta name="author" content="Ferenc Szel">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+  <script type="text/javascript" src="java.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<h1>Tic Tac Toe game</h1>
+<div class="game">
+  <div class="statistics" id="stat"></div>
+  <div class="message"><span id="msg"></span></div>
+  <div class="selector row" id="slct">
+
+    <div class="slc-btn game-mode" id="oneP">One player</div><div class="slc-btn game-mode" id="twoP">Two players</div>
+    <div class="slc-btn token" id="X">X</div><div class="slc-btn token" id="O">O</div>
+    <div class="slc-btn next" id="restart">Start new game</div><div class="slc-btn next" id="again">Play again</div>
+
+  </div>
+  <div class="game-board">
+    <div class"row">
+      <div class="pick" data-i=0 data-j=0></div>
+      <div class="pick" data-i=0 data-j=1></div>
+      <div class="pick" data-i=0 data-j=2></div>
+    </div>
+    <div class"row">
+      <div class="pick" data-i=1 data-j=0></div>
+      <div class="pick" data-i=1 data-j=1></div>
+      <div class="pick" data-i=1 data-j=2></div>
+    </div>
+    <div class"row">
+      <div class="pick" data-i=2 data-j=0></div>
+      <div class="pick" data-i=2 data-j=1></div>
+      <div class="pick" data-i=2 data-j=2></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <hr>
+  <div class="footer-text">
+    <p>Coded by <a href="https://www.freecodecamp.com/iamflok" target="_blank">Ferenc Szel</a></br>
+  </div>
+</footer>
+
+</html>
+
+</body>
+
+</html>

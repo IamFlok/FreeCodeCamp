@@ -1,0 +1,117 @@
+body {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f7f7f7;
+}
+
+.add-box {
+  margin: auto;
+}
+
+.add-box .form-control {
+  margin: 0px;
+}
+
+.add-box .add-button {
+  width: 100%;
+  margin-top: 2px;
+  border: 1px solid;
+  border-color: #dedede;
+  border-radius: 0px;
+  background-color: #feffef;
+}
+
+.stream-box a {
+  text-decoration: inherit;
+  color: black;
+}
+
+.stream-box {
+  padding: 10px;
+  background-color: #ffffff;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.stream-box .streamer {
+  width: 100%;
+  border-bottom: 1px solid;
+  border-bottom-color: #7a7a7a;
+  border-radius: 0px;
+}
+
+.stream-box .streamer:hover {
+  background-color: #f9f9f9;
+}
+
+.stream-box .streamer .name {
+  padding: 10px 80px;
+  text-align: left;
+}
+
+.stream-box .streamer .stream {
+  padding: 10px 90px;
+  text-align: right;
+}
+
+.stream-box .streamer .error-message {
+  font-size: 14px;
+  padding: 10px;
+  color: #ff0000;
+  width: 100%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.stream-box .game {
+  padding: 0px 0px 10px 0px;
+}
+
+.stream-box .streamer .online {
+  color: green;
+}
+
+.stream-box .streamer .offline {
+  color: red;
+}
+
+footer {
+  background-color: #fff;
+  position: fixed;
+  opacity: 0.9;
+  padding: 15px 0px 0px 10px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .add-button {
+    font-size: 14px;
+  }
+
+  .stream-box .streamer .error-message {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .stream-box .streamer .name {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .stream-box .streamer .stream {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .stream-box {
+    width: 100%;
+  }
+}

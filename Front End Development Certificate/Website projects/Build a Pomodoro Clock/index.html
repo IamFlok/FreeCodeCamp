@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Promodoro Clock</title>
+  <meta charset="UTF-8">
+  <meta name="Build a Pomodoro Clock" content="FCC project">
+  <meta name="keywords" content="HTML,CSS,JS">
+  <meta name="author" content="Ferenc Szel">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="promodoro.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Promodoro clock</h1>
+    <div class="clock">
+
+      <div class="control-panel">
+
+        <div class="row">
+          <div class="col-md-6 period-title">
+            <p>Break length</p>
+            <div class="row">
+              <div class="length" id="break-time"></div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 btn" id="break-minus">-</div>
+              <div class="col-xs-6 btn" id="break-plus">+</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 period-title">
+            <p>Session length</p>
+            <div class="row">
+              <div class="length" id="session-time"></div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 btn" id="session-minus">-</div>
+              <div class="col-xs-6 btn" id="session-plus">+</div>
+            </div>
+          </div>
+        </div>
+        <!-- end of length control panel section -->
+
+        <div class="row">
+          <div class="switcher">
+            <div class="btn switcher-btn" id="start-pause">start</div>
+          </div>
+        </div>
+      </div>
+      <!-- end of control panel -->
+
+      <div class="row">
+        <div class="timer">
+          <div class="row">
+            <div class="period" id="period-cycle">session</div>
+          </div>
+          <div class="row">
+            <div class="counter" id="time"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end of timer -->
+    </div>
+    <!-- end of clock -->
+  </div>
+</body>
+
+<footer>
+  <hr>
+  <div class="footer-text">
+    <p>Coded by <a href="https://www.freecodecamp.com/iamflok" target="_blank">Ferenc Szel</a></br>
+  </div>
+</footer>
+
+</html>

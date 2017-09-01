@@ -1,0 +1,36 @@
+body {
+  background-color: #f4f4f4;
+  font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+  font-size: 26px;
+  color: #4c4c4c;
+}
+
+hr {
+  margin: 20px;
+}
+
+.quote-box {
+  background-color: #fff;
+  padding: 20px;
+  margin: 5% auto auto auto;
+  width: 600px;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-style: italic;
+  text-align: right;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media screen and (max-height: 450px) {
+  footer { position: relative; }
+}
