@@ -26,7 +26,7 @@ app.get('/books', function(req, res) {
         } catch (err) {
             res.sendStatus(500)
         }
-        res.send(content);
+        res.json(content);
     });
 });
 
