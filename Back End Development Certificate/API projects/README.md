@@ -8,3 +8,6 @@ https://headerparser-flok.glitch.me
 
 https://urlshortener-flok.glitch.me
 - IamFlok/URLShortener
+
+https://imagesearch-flok.glitch.me/
+- IamFlok/ImageSearch
