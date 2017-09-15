@@ -1,4 +1,4 @@
-Back End API projects are now have their own repository:
+Back End API projects now have their own repository:
 
 https://timestamp-flok.glitch.me
 - IamFlok/Timestamp
