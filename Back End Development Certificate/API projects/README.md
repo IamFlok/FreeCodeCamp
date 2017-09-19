@@ -11,3 +11,6 @@ https://urlshortener-flok.glitch.me
 
 https://imagesearch-flok.glitch.me/
 - IamFlok/ImageSearch
+
+https://filemetadata-flok.glitch.me/
+- IamFlok/FileMetadata
